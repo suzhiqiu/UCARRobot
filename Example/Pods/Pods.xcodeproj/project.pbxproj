@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074633924B7C7EDDDBFBFB4E6E49B8D9 /* Pods-UCARRobot_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF50C953EC970377A5873D25B0891DAD /* Pods-UCARRobot_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C62DAAD3CA9DCB1084AD6CEE8F45D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		42A7199969A2245D579CC3F2AC42D92A /* UCARRobot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C0253638CF504BCE81C019F80E812D /* UCARRobot-dummy.m */; };
+		65B0E454412FBF12B5C11603A41FC7CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		79068E383AF8C94F6D0A8FD3E8348CC1 /* UCARRobot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC448499E58D658EEBE677D9A7DFF87 /* UCARRobot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79AD6DF7E7FC1022CC70FC86F3F0DC97 /* Pods-UCARRobot_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A268D5F78E8AE398CFB52FA02397C29 /* Pods-UCARRobot_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		913C9D323B10ED582DDFFA4BA2070409 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8B69A37A0F62AA0D6EB77628A0E1F /* ReplaceMe.m */; };
+		9270838600D1BF4CF7F32146659EF419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C530DD63418AC0571DD27568745EAA7B /* Pods-UCARRobot_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C01CABBBD2A5CCC972BCCC915ECD16 /* Pods-UCARRobot_Example-dummy.m */; };
+		DA8B0D7D8A24B7FEF1932CF37A17683F /* Pods-UCARRobot_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586D066C2B9D723384A3E05A1D17F13 /* Pods-UCARRobot_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0651ED29945B6501ED7755F6674FFB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2225911357C3F08E8D6C909E85CB4125;
+			remoteInfo = UCARRobot;
+		};
+		E44EAA310C1C59F4A4645BD475853A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3870D8D3A2EAA180EA3B716B97F4D94;
+			remoteInfo = "Pods-UCARRobot_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E5342BCB94D7E051452776635E69B5 /* Pods-UCARRobot_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCARRobot_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DE4FECAF301038C9064D4623F9229DA /* Pods-UCARRobot_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCARRobot_Tests.modulemap"; sourceTree = "<group>"; };
+		17727817A53FB402BEDAA2A79092FFCC /* Pods_UCARRobot_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCARRobot_Tests.framework; path = "Pods-UCARRobot_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACFE35BE7C1884909E02996689F56B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		233097AEB87EEE17C8A19AAC91F2E1BC /* Pods-UCARRobot_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCARRobot_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27D8B69A37A0F62AA0D6EB77628A0E1F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UCARRobot/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2C6D778397AE7A37EEAD66D38971FC97 /* Pods_UCARRobot_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCARRobot_Example.framework; path = "Pods-UCARRobot_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D766907E746B599BEC707966D289D0 /* Pods-UCARRobot_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCARRobot_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		480CFBD2A11149CD95BC7F2EF76C8256 /* Pods-UCARRobot_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCARRobot_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		509F315B8E5692F4827F46FD06E2A3E0 /* Pods-UCARRobot_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCARRobot_Example-frameworks.sh"; sourceTree = "<group>"; };
+		520BB4A28C5CA6A6CA8981B9523F4C31 /* Pods-UCARRobot_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCARRobot_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5586D066C2B9D723384A3E05A1D17F13 /* Pods-UCARRobot_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCARRobot_Tests-dummy.m"; sourceTree = "<group>"; };
+		560B1D8F55EA130660918483E444B559 /* Pods-UCARRobot_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCARRobot_Example.modulemap"; sourceTree = "<group>"; };
+		73C5582680134983403FAD0C564BCF75 /* UCARRobot.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UCARRobot.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A268D5F78E8AE398CFB52FA02397C29 /* Pods-UCARRobot_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCARRobot_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C26FAA619D4CD1E0EDF80F1D5A6DBB7 /* Pods-UCARRobot_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCARRobot_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1488C47D16732CAA2F9D82C7C5BE05 /* UCARRobot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCARRobot.modulemap; sourceTree = "<group>"; };
+		81C01CABBBD2A5CCC972BCCC915ECD16 /* Pods-UCARRobot_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCARRobot_Example-dummy.m"; sourceTree = "<group>"; };
+		839BC6D5DBCB00F38680190D9153E3D5 /* UCARRobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UCARRobot.framework; path = UCARRobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CABABFE4568191A4C54D3DB358B8DEF /* UCARRobot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCARRobot-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F27E74C1C936BCC6165997448C5C00 /* Pods-UCARRobot_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCARRobot_Example-Info.plist"; sourceTree = "<group>"; };
+		A22C6B540B69F67D00A66E9299695270 /* UCARRobot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UCARRobot-Info.plist"; sourceTree = "<group>"; };
+		B529D69F0CD95EAF3C0D42F01D504C8A /* Pods-UCARRobot_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCARRobot_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B898D13964092D4AABF32D3F53AC6D03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B968F5498A3B4C29C130A88DD240CC07 /* UCARRobot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCARRobot.xcconfig; sourceTree = "<group>"; };
+		BBC448499E58D658EEBE677D9A7DFF87 /* UCARRobot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCARRobot-umbrella.h"; sourceTree = "<group>"; };
+		D4C0253638CF504BCE81C019F80E812D /* UCARRobot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCARRobot-dummy.m"; sourceTree = "<group>"; };
+		EF50C953EC970377A5873D25B0891DAD /* Pods-UCARRobot_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCARRobot_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F33441690C6769DC00DE25C7348CA1A7 /* Pods-UCARRobot_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCARRobot_Tests-Info.plist"; sourceTree = "<group>"; };
+		FB21E3013F3792DB4E9268E19795B341 /* Pods-UCARRobot_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCARRobot_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACB75671F8787CB1E18D5D4CB5FD071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9270838600D1BF4CF7F32146659EF419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA004F761DAE072F21ED358846F9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C62DAAD3CA9DCB1084AD6CEE8F45D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC6CCF98834CA10852CBE369B21648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B0E454412FBF12B5C11603A41FC7CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07794ED6982AA0D1135A7CCF61F9B42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6D778397AE7A37EEAD66D38971FC97 /* Pods_UCARRobot_Example.framework */,
+				17727817A53FB402BEDAA2A79092FFCC /* Pods_UCARRobot_Tests.framework */,
+				839BC6D5DBCB00F38680190D9153E3D5 /* UCARRobot.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2EBB61035A3414A1C3FED5405AAB28 /* Pods-UCARRobot_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4FECAF301038C9064D4623F9229DA /* Pods-UCARRobot_Tests.modulemap */,
+				520BB4A28C5CA6A6CA8981B9523F4C31 /* Pods-UCARRobot_Tests-acknowledgements.markdown */,
+				FB21E3013F3792DB4E9268E19795B341 /* Pods-UCARRobot_Tests-acknowledgements.plist */,
+				5586D066C2B9D723384A3E05A1D17F13 /* Pods-UCARRobot_Tests-dummy.m */,
+				F33441690C6769DC00DE25C7348CA1A7 /* Pods-UCARRobot_Tests-Info.plist */,
+				EF50C953EC970377A5873D25B0891DAD /* Pods-UCARRobot_Tests-umbrella.h */,
+				233097AEB87EEE17C8A19AAC91F2E1BC /* Pods-UCARRobot_Tests.debug.xcconfig */,
+				B529D69F0CD95EAF3C0D42F01D504C8A /* Pods-UCARRobot_Tests.release.xcconfig */,
+			);
+			name = "Pods-UCARRobot_Tests";
+			path = "Target Support Files/Pods-UCARRobot_Tests";
+			sourceTree = "<group>";
+		};
+		31D9D96522178654B4506FE78BAF502C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				886EFDC641D5F18BD29CC9305F8F917A /* Pods-UCARRobot_Example */,
+				1B2EBB61035A3414A1C3FED5405AAB28 /* Pods-UCARRobot_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		886EFDC641D5F18BD29CC9305F8F917A /* Pods-UCARRobot_Example */ = {
+			isa = PBXGroup;
+			children = (
+				560B1D8F55EA130660918483E444B559 /* Pods-UCARRobot_Example.modulemap */,
+				480CFBD2A11149CD95BC7F2EF76C8256 /* Pods-UCARRobot_Example-acknowledgements.markdown */,
+				03E5342BCB94D7E051452776635E69B5 /* Pods-UCARRobot_Example-acknowledgements.plist */,
+				81C01CABBBD2A5CCC972BCCC915ECD16 /* Pods-UCARRobot_Example-dummy.m */,
+				509F315B8E5692F4827F46FD06E2A3E0 /* Pods-UCARRobot_Example-frameworks.sh */,
+				A0F27E74C1C936BCC6165997448C5C00 /* Pods-UCARRobot_Example-Info.plist */,
+				7A268D5F78E8AE398CFB52FA02397C29 /* Pods-UCARRobot_Example-umbrella.h */,
+				7C26FAA619D4CD1E0EDF80F1D5A6DBB7 /* Pods-UCARRobot_Example.debug.xcconfig */,
+				31D766907E746B599BEC707966D289D0 /* Pods-UCARRobot_Example.release.xcconfig */,
+			);
+			name = "Pods-UCARRobot_Example";
+			path = "Target Support Files/Pods-UCARRobot_Example";
+			sourceTree = "<group>";
+		};
+		9578146AF604648C8D08A6693732AA16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1488C47D16732CAA2F9D82C7C5BE05 /* UCARRobot.modulemap */,
+				B968F5498A3B4C29C130A88DD240CC07 /* UCARRobot.xcconfig */,
+				D4C0253638CF504BCE81C019F80E812D /* UCARRobot-dummy.m */,
+				A22C6B540B69F67D00A66E9299695270 /* UCARRobot-Info.plist */,
+				9CABABFE4568191A4C54D3DB358B8DEF /* UCARRobot-prefix.pch */,
+				BBC448499E58D658EEBE677D9A7DFF87 /* UCARRobot-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UCARRobot";
+			sourceTree = "<group>";
+		};
+		9EEF337DEB2F04699BF0A5A4A23CFA13 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A855BC8D0C061AC40F691578E9913B /* UCARRobot */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE6C316CF3BA8175957BAE6F26A461AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B898D13964092D4AABF32D3F53AC6D03 /* LICENSE */,
+				1ACFE35BE7C1884909E02996689F56B5 /* README.md */,
+				73C5582680134983403FAD0C564BCF75 /* UCARRobot.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B9A855BC8D0C061AC40F691578E9913B /* UCARRobot */ = {
+			isa = PBXGroup;
+			children = (
+				27D8B69A37A0F62AA0D6EB77628A0E1F /* ReplaceMe.m */,
+				AE6C316CF3BA8175957BAE6F26A461AE /* Pod */,
+				9578146AF604648C8D08A6693732AA16 /* Support Files */,
+			);
+			name = UCARRobot;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9EEF337DEB2F04699BF0A5A4A23CFA13 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				07794ED6982AA0D1135A7CCF61F9B42E /* Products */,
+				31D9D96522178654B4506FE78BAF502C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FF749D1D70E9C7070D198B1727DDB15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79068E383AF8C94F6D0A8FD3E8348CC1 /* UCARRobot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3986F75B956222C5C47274E71D93E372 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD6DF7E7FC1022CC70FC86F3F0DC97 /* Pods-UCARRobot_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD424E2F3B344C65131AB6776C3BF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074633924B7C7EDDDBFBFB4E6E49B8D9 /* Pods-UCARRobot_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2225911357C3F08E8D6C909E85CB4125 /* UCARRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2493932E908D6A708AFE0E9DB2BD65 /* Build configuration list for PBXNativeTarget "UCARRobot" */;
+			buildPhases = (
+				0FF749D1D70E9C7070D198B1727DDB15 /* Headers */,
+				E45E1E1652772C1E29A91D7B53B9DB4E /* Sources */,
+				4ACB75671F8787CB1E18D5D4CB5FD071 /* Frameworks */,
+				7FF20E2456354A997FC145ECBE3FA733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UCARRobot;
+			productName = UCARRobot;
+			productReference = 839BC6D5DBCB00F38680190D9153E3D5 /* UCARRobot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5446AD7029D288532C023D5D02A3E6D /* Pods-UCARRobot_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4059C73F3BB5D55C68D253C176AFCD1 /* Build configuration list for PBXNativeTarget "Pods-UCARRobot_Tests" */;
+			buildPhases = (
+				AFAD424E2F3B344C65131AB6776C3BF5 /* Headers */,
+				2C16AC7C163B061BCD18CB7FA02899E1 /* Sources */,
+				A9CC6CCF98834CA10852CBE369B21648 /* Frameworks */,
+				F1486A050EEA4A10397EB53B6A7793E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6289B909A1FBC61685486148398699D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-UCARRobot_Tests";
+			productName = "Pods-UCARRobot_Tests";
+			productReference = 17727817A53FB402BEDAA2A79092FFCC /* Pods_UCARRobot_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3870D8D3A2EAA180EA3B716B97F4D94 /* Pods-UCARRobot_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47B2C7D1B8A654991204BAFBCCE27D1 /* Build configuration list for PBXNativeTarget "Pods-UCARRobot_Example" */;
+			buildPhases = (
+				3986F75B956222C5C47274E71D93E372 /* Headers */,
+				A3BCAA70DD9BD0425A6BE9B00EB3F811 /* Sources */,
+				4ECA004F761DAE072F21ED358846F9C8 /* Frameworks */,
+				61081C3282CDFA386DFF5E9F929A8A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABA10955888B8C86DEFB992EC88C1C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-UCARRobot_Example";
+			productName = "Pods-UCARRobot_Example";
+			productReference = 2C6D778397AE7A37EEAD66D38971FC97 /* Pods_UCARRobot_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07794ED6982AA0D1135A7CCF61F9B42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3870D8D3A2EAA180EA3B716B97F4D94 /* Pods-UCARRobot_Example */,
+				E5446AD7029D288532C023D5D02A3E6D /* Pods-UCARRobot_Tests */,
+				2225911357C3F08E8D6C909E85CB4125 /* UCARRobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61081C3282CDFA386DFF5E9F929A8A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF20E2456354A997FC145ECBE3FA733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1486A050EEA4A10397EB53B6A7793E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C16AC7C163B061BCD18CB7FA02899E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8B0D7D8A24B7FEF1932CF37A17683F /* Pods-UCARRobot_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BCAA70DD9BD0425A6BE9B00EB3F811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C530DD63418AC0571DD27568745EAA7B /* Pods-UCARRobot_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E1E1652772C1E29A91D7B53B9DB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913C9D323B10ED582DDFFA4BA2070409 /* ReplaceMe.m in Sources */,
+				42A7199969A2245D579CC3F2AC42D92A /* UCARRobot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6289B909A1FBC61685486148398699D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UCARRobot_Example";
+			target = F3870D8D3A2EAA180EA3B716B97F4D94 /* Pods-UCARRobot_Example */;
+			targetProxy = E44EAA310C1C59F4A4645BD475853A0D /* PBXContainerItemProxy */;
+		};
+		DABA10955888B8C86DEFB992EC88C1C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UCARRobot;
+			target = 2225911357C3F08E8D6C909E85CB4125 /* UCARRobot */;
+			targetProxy = 0651ED29945B6501ED7755F6674FFB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8025A201C98E0BD898DCD3015A606EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233097AEB87EEE17C8A19AAC91F2E1BC /* Pods-UCARRobot_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCARRobot_Tests/Pods-UCARRobot_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCARRobot_Tests/Pods-UCARRobot_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8194113B41C7CBEF6C1168B2C7C86936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B968F5498A3B4C29C130A88DD240CC07 /* UCARRobot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UCARRobot/UCARRobot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UCARRobot/UCARRobot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UCARRobot/UCARRobot.modulemap";
+				PRODUCT_MODULE_NAME = UCARRobot;
+				PRODUCT_NAME = UCARRobot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8825A43982BBFB34A28B94461CDB3E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D766907E746B599BEC707966D289D0 /* Pods-UCARRobot_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D93F2A7D3F3B184F7C23E3EDAA3161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B529D69F0CD95EAF3C0D42F01D504C8A /* Pods-UCARRobot_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCARRobot_Tests/Pods-UCARRobot_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCARRobot_Tests/Pods-UCARRobot_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E37E35F1C8BFD53180C91024C457058A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B968F5498A3B4C29C130A88DD240CC07 /* UCARRobot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UCARRobot/UCARRobot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UCARRobot/UCARRobot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UCARRobot/UCARRobot.modulemap";
+				PRODUCT_MODULE_NAME = UCARRobot;
+				PRODUCT_NAME = UCARRobot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED96C57D51A99B40976C33808890CBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C26FAA619D4CD1E0EDF80F1D5A6DBB7 /* Pods-UCARRobot_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2493932E908D6A708AFE0E9DB2BD65 /* Build configuration list for PBXNativeTarget "UCARRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37E35F1C8BFD53180C91024C457058A /* Debug */,
+				8194113B41C7CBEF6C1168B2C7C86936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4059C73F3BB5D55C68D253C176AFCD1 /* Build configuration list for PBXNativeTarget "Pods-UCARRobot_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8025A201C98E0BD898DCD3015A606EE2 /* Debug */,
+				8D93F2A7D3F3B184F7C23E3EDAA3161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47B2C7D1B8A654991204BAFBCCE27D1 /* Build configuration list for PBXNativeTarget "Pods-UCARRobot_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED96C57D51A99B40976C33808890CBFE /* Debug */,
+				8825A43982BBFB34A28B94461CDB3E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

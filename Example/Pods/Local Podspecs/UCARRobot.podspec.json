@@ -1,0 +1,22 @@
+{
+  "name": "UCARRobot",
+  "version": "0.1.0",
+  "summary": "A short description of UCARRobot.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/364121248@qq.com/UCARRobot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "364121248@qq.com": "zhiqiu.su@ucarinc.com"
+  },
+  "source": {
+    "git": "https://github.com/364121248@qq.com/UCARRobot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UCARRobot/Classes/**/*"
+}

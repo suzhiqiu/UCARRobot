@@ -1,0 +1,6 @@
+framework module Pods_UCARRobot_Example {
+  umbrella header "Pods-UCARRobot_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
