@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2225911357C3F08E8D6C909E85CB4125"
+               BlueprintIdentifier = "E40E37BD240C94E9D5675F395FFA5917"
                BuildableName = "UCARRobot.framework"
                BlueprintName = "UCARRobot"
                ReferencedContainer = "container:Pods.xcodeproj">
