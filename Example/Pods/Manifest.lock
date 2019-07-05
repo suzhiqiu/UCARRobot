@@ -1,0 +1,16 @@
+PODS:
+  - UCARRobot (0.1.0)
+
+DEPENDENCIES:
+  - UCARRobot (from `../`)
+
+EXTERNAL SOURCES:
+  UCARRobot:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UCARRobot: 47f4dde4e852ff969e9f71ffbdd626fd9380b565
+
+PODFILE CHECKSUM: c0a443645c4a8d18a706fb81776c367a522c60eb
+
+COCOAPODS: 1.6.1

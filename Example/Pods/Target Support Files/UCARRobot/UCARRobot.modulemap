@@ -1,0 +1,6 @@
+framework module UCARRobot {
+  umbrella header "UCARRobot-umbrella.h"
+
+  export *
+  module * { export * }
+}
