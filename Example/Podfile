@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'UCARRobot_Example' do
-  pod 'UCARRobot', :path => '../'
+  pod 'UCARRobot', :subspecs => ['Core','WithLogger','UCARDokit','WithLoad'], :path => '../'
   
   pod 'AFNetworking','2.6.3'
   pod 'SDWebImage','3.8.2'

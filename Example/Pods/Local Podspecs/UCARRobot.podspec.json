@@ -18,6 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
+  "default_subspecs": [
+    "Core",
+    "UCARDokit",
+    "WithLoad"
+  ],
   "prefix_header_contents": "#import \"DoraemonDefine.h\"",
   "dependencies": {
     "PNChart": [

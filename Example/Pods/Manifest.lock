@@ -30,15 +30,6 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
-  - UCARRobot (0.1.0):
-    - BSBacktraceLogger
-    - fishhook
-    - PNChart
-    - UCARRobot/Core (= 0.1.0)
-    - UCARRobot/UCARDokit (= 0.1.0)
-    - UCARRobot/WithLoad (= 0.1.0)
-    - UCARRobot/WithLogger (= 0.1.0)
-    - "UITextView+Placeholder"
   - UCARRobot/Core (0.1.0):
     - BSBacktraceLogger
     - fishhook
@@ -70,7 +61,10 @@ DEPENDENCIES:
   - AFNetworking (= 2.6.3)
   - CocoaLumberjack
   - SDWebImage (= 3.8.2)
-  - UCARRobot (from `../`)
+  - UCARRobot/Core (from `../`)
+  - UCARRobot/UCARDokit (from `../`)
+  - UCARRobot/WithLoad (from `../`)
+  - UCARRobot/WithLogger (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -94,10 +88,10 @@ SPEC CHECKSUMS:
   fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  UCARRobot: 19a44ef3bee82595c9d5e2ce6bb2006526d6510b
+  UCARRobot: 554ab577f95d85efef914d4bd3556e11f1e31e54
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
 
-PODFILE CHECKSUM: d5ca8cae58041ef11b55632e5487b3268902777b
+PODFILE CHECKSUM: 55f77ee02e3c4f0cf0e60f176a4e02421912015c
 
 COCOAPODS: 1.6.1

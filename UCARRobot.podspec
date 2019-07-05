@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
-  # s.default_subspec = 'Core','UCARDokit','WithLoad','WithLogger'
+  s.default_subspec = 'Core','UCARDokit','WithLoad'
   
   s.subspec 'Core' do |ss|
       ss.source_files = 'UCARRobot/Classes/Core/**/*{.h,.m}'
