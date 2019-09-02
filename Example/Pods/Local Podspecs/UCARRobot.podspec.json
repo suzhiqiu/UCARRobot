@@ -1,9 +1,9 @@
 {
   "name": "UCARRobot",
   "version": "0.1.0",
-  "summary": "UCARRobot  is a performance testing tool",
+  "summary": "A short description of UCARRobot.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "http://gitlab.10101111.com:8888/ucar_ios_team/ucarrobot",
+  "homepage": "https://github.com/364121248@qq.com/UCARRobot",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,76 +12,11 @@
     "364121248@qq.com": "zhiqiu.su@ucarinc.com"
   },
   "source": {
-    "git": "http://gitlab.10101111.com:8888/ucar_ios_team/ucarrobot.git",
+    "git": "https://github.com/364121248@qq.com/UCARRobot.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "default_subspecs": [
-    "Core",
-    "UCARDokit",
-    "WithLoad"
-  ],
-  "prefix_header_contents": "#import \"DoraemonDefine.h\"",
-  "dependencies": {
-    "PNChart": [
-
-    ],
-    "BSBacktraceLogger": [
-
-    ],
-    "fishhook": [
-
-    ],
-    "UITextView+Placeholder": [
-
-    ]
-  },
-  "subspecs": [
-    {
-      "name": "Core",
-      "source_files": "UCARRobot/Classes/Core/**/*{.h,.m}",
-      "resource_bundles": {
-        "UCARRobot": "UCARRobot/Resource/**/*"
-      }
-    },
-    {
-      "name": "UCARDokit",
-      "source_files": "UCARRobot/Classes/UCARDokit/**/*{.h,.m}",
-      "dependencies": {
-        "UCARRobot/Core": [
-
-        ]
-      }
-    },
-    {
-      "name": "WithLoad",
-      "source_files": "UCARRobot/Classes/MethodUseTime/**/*{.h,.m}",
-      "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) DoraemonWithLoad"
-      },
-      "dependencies": {
-        "UCARRobot/Core": [
-
-        ]
-      },
-      "vendored_frameworks": "UCARRobot/Framework/*.framework"
-    },
-    {
-      "name": "WithLogger",
-      "source_files": "UCARRobot/Classes/Logger/**/*{.h,.m}",
-      "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) DoraemonWithLogger"
-      },
-      "dependencies": {
-        "UCARRobot/Core": [
-
-        ],
-        "CocoaLumberjack": [
-
-        ]
-      }
-    }
-  ]
+  "source_files": "UCARRobot/Classes/**/*"
 }

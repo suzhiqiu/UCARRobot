@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1905C65FABA05C007C5E9765 /* Pods_UCARRobot_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85B24DA227689F68AF7300 /* Pods_UCARRobot_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,31 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6F3151CAE854AD499E816FC0 /* Pods_UCARRobot_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6359CF1863E7CCAE3819B615 /* Pods_UCARRobot_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7520F59822C7548900A60503 /* DoraemonDemoUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F57022C7548900A60503 /* DoraemonDemoUIViewController.m */; };
-		7520F59922C7548900A60503 /* DoraemonDemoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F57322C7548900A60503 /* DoraemonDemoHomeViewController.m */; };
-		7520F59A22C7548900A60503 /* DoraemonUIWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F57822C7548900A60503 /* DoraemonUIWebViewViewController.m */; };
-		7520F59B22C7548900A60503 /* DoraemonWKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F57A22C7548900A60503 /* DoraemonWKWebViewViewController.m */; };
-		7520F59C22C7548900A60503 /* DoraemonDemoImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F57D22C7548900A60503 /* DoraemonDemoImageViewController.m */; };
-		7520F59D22C7548900A60503 /* DoraemonDemoImageShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F57E22C7548900A60503 /* DoraemonDemoImageShowViewController.m */; };
-		7520F59E22C7548900A60503 /* DoraemonDemoNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F58122C7548900A60503 /* DoraemonDemoNetViewController.m */; };
-		7520F59F22C7548900A60503 /* DoraemonDemoLoggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F58422C7548900A60503 /* DoraemonDemoLoggerViewController.m */; };
-		7520F5A022C7548900A60503 /* DoraemonDemoCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F58822C7548900A60503 /* DoraemonDemoCrashViewController.m */; };
-		7520F5A122C7548900A60503 /* DoraemonDemoCrashMRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F58922C7548900A60503 /* DoraemonDemoCrashMRCView.m */; };
-		7520F5A222C7548900A60503 /* DoraemonDemoSanboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F58C22C7548900A60503 /* DoraemonDemoSanboxViewController.m */; };
-		7520F5A322C7548900A60503 /* DoraemonDemoCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F58F22C7548900A60503 /* DoraemonDemoCommonViewController.m */; };
-		7520F5A422C7548900A60503 /* DoraemonDemoMockGPSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F59122C7548900A60503 /* DoraemonDemoMockGPSAnnotation.m */; };
-		7520F5A522C7548900A60503 /* DoraemonDemoMockGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F59422C7548900A60503 /* DoraemonDemoMockGPSViewController.m */; };
-		7520F5A622C7548900A60503 /* DoraemonDemoPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F59622C7548900A60503 /* DoraemonDemoPerformanceViewController.m */; };
-		7520F5B522C7549F00A60503 /* StartPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F5A822C7549E00A60503 /* StartPlugin.m */; };
-		7520F5B622C7549F00A60503 /* TestPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F5A922C7549E00A60503 /* TestPlugin.m */; };
-		7520F5B722C7549F00A60503 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520F5AE22C7549F00A60503 /* NSObject+Runtime.m */; };
-		7520F5B822C7549F00A60503 /* huoying.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7520F5B022C7549F00A60503 /* huoying.mp4 */; };
-		7520F5B922C7549F00A60503 /* Doraemon.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 7520F5B122C7549F00A60503 /* Doraemon.xlsx */; };
-		7520F5BA22C7549F00A60503 /* doraemon.html in Resources */ = {isa = PBXBuildFile; fileRef = 7520F5B222C7549F00A60503 /* doraemon.html */; };
-		7520F5BB22C7549F00A60503 /* Doraemon.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7520F5B322C7549F00A60503 /* Doraemon.docx */; };
-		7520F5BC22C7549F00A60503 /* Doraemon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7520F5B422C7549F00A60503 /* Doraemon.pdf */; };
-		ABBB51836A9D3731E2C78603 /* Pods_UCARRobot_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E25717F3274CCC9DD9257BD /* Pods_UCARRobot_Example.framework */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,22 +36,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7520F56322C713B900A60503 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		3B14CFCACBEDFC4456B6C223 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4E25717F3274CCC9DD9257BD /* Pods_UCARRobot_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCARRobot_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		465B9C8482D25D194B505FCD /* UCARRobot.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UCARRobot.podspec; path = ../UCARRobot.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		545A52D03CA13ED92046927F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UCARRobot_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCARRobot_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,54 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6359CF1863E7CCAE3819B615 /* Pods_UCARRobot_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCARRobot_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0ACE5D641C07EE69FE752C /* Pods-UCARRobot_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCARRobot_Example.debug.xcconfig"; path = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7520F56722C7147E00A60503 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		7520F56A22C7149400A60503 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
-		7520F57022C7548900A60503 /* DoraemonDemoUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoUIViewController.m; sourceTree = "<group>"; };
-		7520F57122C7548900A60503 /* DoraemonDemoUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoUIViewController.h; sourceTree = "<group>"; };
-		7520F57322C7548900A60503 /* DoraemonDemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoHomeViewController.m; sourceTree = "<group>"; };
-		7520F57422C7548900A60503 /* DoraemonDemoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoHomeViewController.h; sourceTree = "<group>"; };
-		7520F57722C7548900A60503 /* DoraemonWKWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWKWebViewViewController.h; sourceTree = "<group>"; };
-		7520F57822C7548900A60503 /* DoraemonUIWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonUIWebViewViewController.m; sourceTree = "<group>"; };
-		7520F57922C7548900A60503 /* DoraemonUIWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonUIWebViewViewController.h; sourceTree = "<group>"; };
-		7520F57A22C7548900A60503 /* DoraemonWKWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWKWebViewViewController.m; sourceTree = "<group>"; };
-		7520F57B22C7548900A60503 /* DoraemonDemoNetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoNetViewController.h; sourceTree = "<group>"; };
-		7520F57D22C7548900A60503 /* DoraemonDemoImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoImageViewController.m; sourceTree = "<group>"; };
-		7520F57E22C7548900A60503 /* DoraemonDemoImageShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoImageShowViewController.m; sourceTree = "<group>"; };
-		7520F57F22C7548900A60503 /* DoraemonDemoImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoImageViewController.h; sourceTree = "<group>"; };
-		7520F58022C7548900A60503 /* DoraemonDemoImageShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoImageShowViewController.h; sourceTree = "<group>"; };
-		7520F58122C7548900A60503 /* DoraemonDemoNetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoNetViewController.m; sourceTree = "<group>"; };
-		7520F58322C7548900A60503 /* DoraemonDemoLoggerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoLoggerViewController.h; sourceTree = "<group>"; };
-		7520F58422C7548900A60503 /* DoraemonDemoLoggerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoLoggerViewController.m; sourceTree = "<group>"; };
-		7520F58622C7548900A60503 /* DoraemonDemoCrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoCrashViewController.h; sourceTree = "<group>"; };
-		7520F58722C7548900A60503 /* DoraemonDemoCrashMRCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoCrashMRCView.h; sourceTree = "<group>"; };
-		7520F58822C7548900A60503 /* DoraemonDemoCrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoCrashViewController.m; sourceTree = "<group>"; };
-		7520F58922C7548900A60503 /* DoraemonDemoCrashMRCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoCrashMRCView.m; sourceTree = "<group>"; };
-		7520F58B22C7548900A60503 /* DoraemonDemoSanboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoSanboxViewController.h; sourceTree = "<group>"; };
-		7520F58C22C7548900A60503 /* DoraemonDemoSanboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoSanboxViewController.m; sourceTree = "<group>"; };
-		7520F58E22C7548900A60503 /* DoraemonDemoCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoCommonViewController.h; sourceTree = "<group>"; };
-		7520F58F22C7548900A60503 /* DoraemonDemoCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoCommonViewController.m; sourceTree = "<group>"; };
-		7520F59122C7548900A60503 /* DoraemonDemoMockGPSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMockGPSAnnotation.m; sourceTree = "<group>"; };
-		7520F59222C7548900A60503 /* DoraemonDemoMockGPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMockGPSViewController.h; sourceTree = "<group>"; };
-		7520F59322C7548900A60503 /* DoraemonDemoMockGPSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMockGPSAnnotation.h; sourceTree = "<group>"; };
-		7520F59422C7548900A60503 /* DoraemonDemoMockGPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMockGPSViewController.m; sourceTree = "<group>"; };
-		7520F59622C7548900A60503 /* DoraemonDemoPerformanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoPerformanceViewController.m; sourceTree = "<group>"; };
-		7520F59722C7548900A60503 /* DoraemonDemoPerformanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoPerformanceViewController.h; sourceTree = "<group>"; };
-		7520F5A822C7549E00A60503 /* StartPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPlugin.m; sourceTree = "<group>"; };
-		7520F5A922C7549E00A60503 /* TestPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPlugin.m; sourceTree = "<group>"; };
-		7520F5AA22C7549E00A60503 /* StartPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPlugin.h; sourceTree = "<group>"; };
-		7520F5AB22C7549E00A60503 /* TestPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPlugin.h; sourceTree = "<group>"; };
-		7520F5AD22C7549F00A60503 /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
-		7520F5AE22C7549F00A60503 /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
-		7520F5B022C7549F00A60503 /* huoying.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = huoying.mp4; sourceTree = "<group>"; };
-		7520F5B122C7549F00A60503 /* Doraemon.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Doraemon.xlsx; sourceTree = "<group>"; };
-		7520F5B222C7549F00A60503 /* doraemon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doraemon.html; sourceTree = "<group>"; };
-		7520F5B322C7549F00A60503 /* Doraemon.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Doraemon.docx; sourceTree = "<group>"; };
-		7520F5B422C7549F00A60503 /* Doraemon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Doraemon.pdf; sourceTree = "<group>"; };
-		B96BC9BE50C57C4FA9227AA5 /* Pods-UCARRobot_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCARRobot_Example.release.xcconfig"; path = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DC8296336FECA6E71B72AE57 /* Pods-UCARRobot_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCARRobot_Example.debug.xcconfig"; path = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ECE0571B4E8E11258E2DC89D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FF5E8CE4FBB17007C1592786 /* UCARRobot.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UCARRobot.podspec; path = ../UCARRobot.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B78D16AB8AB337BDECC81DF /* Pods-UCARRobot_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCARRobot_Tests.release.xcconfig"; path = "Target Support Files/Pods-UCARRobot_Tests/Pods-UCARRobot_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BDD80C17F53A13B390236568 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DE85B24DA227689F68AF7300 /* Pods_UCARRobot_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCARRobot_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C558826151EE5BE4EBB84B /* Pods-UCARRobot_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCARRobot_Example.release.xcconfig"; path = "Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ECFE3BA27883ED6195CD9BD7 /* Pods-UCARRobot_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCARRobot_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UCARRobot_Tests/Pods-UCARRobot_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				ABBB51836A9D3731E2C78603 /* Pods_UCARRobot_Example.framework in Frameworks */,
+				6F3151CAE854AD499E816FC0 /* Pods_UCARRobot_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,21 +88,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				1905C65FABA05C007C5E9765 /* Pods_UCARRobot_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37420E06D8DD4C0BFA70BC14 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DC8296336FECA6E71B72AE57 /* Pods-UCARRobot_Example.debug.xcconfig */,
-				B96BC9BE50C57C4FA9227AA5 /* Pods-UCARRobot_Example.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				37420E06D8DD4C0BFA70BC14 /* Pods */,
+				D9E68B97191D2922724521D4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,13 +119,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7520F56A22C7149400A60503 /* libc++.1.tbd */,
-				7520F56722C7147E00A60503 /* QuartzCore.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4E25717F3274CCC9DD9257BD /* Pods_UCARRobot_Example.framework */,
+				6359CF1863E7CCAE3819B615 /* Pods_UCARRobot_Example.framework */,
+				DE85B24DA227689F68AF7300 /* Pods_UCARRobot_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,12 +132,9 @@
 		6003F593195388D20070C39A /* Example for UCARRobot */ = {
 			isa = PBXGroup;
 			children = (
-				7520F5A722C7549E00A60503 /* Plugin */,
-				7520F5AF22C7549F00A60503 /* Resource */,
-				7520F5AC22C7549E00A60503 /* Util */,
-				7520F56E22C7548900A60503 /* DemoVC */,
 				6003F59C195388D20070C39A /* UCARAppDelegate.h */,
 				6003F59D195388D20070C39A /* UCARAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* UCARViewController.h */,
 				6003F5A6195388D20070C39A /* UCARViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -263,168 +178,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FF5E8CE4FBB17007C1592786 /* UCARRobot.podspec */,
-				ECE0571B4E8E11258E2DC89D /* README.md */,
-				3B14CFCACBEDFC4456B6C223 /* LICENSE */,
+				465B9C8482D25D194B505FCD /* UCARRobot.podspec */,
+				BDD80C17F53A13B390236568 /* README.md */,
+				545A52D03CA13ED92046927F /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7520F56E22C7548900A60503 /* DemoVC */ = {
+		D9E68B97191D2922724521D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7520F56F22C7548900A60503 /* UI */,
-				7520F57222C7548900A60503 /* Home */,
-				7520F57522C7548900A60503 /* Net */,
-				7520F58222C7548900A60503 /* Logger */,
-				7520F58522C7548900A60503 /* Crash */,
-				7520F58A22C7548900A60503 /* Sanbox */,
-				7520F58D22C7548900A60503 /* Common */,
-				7520F59022C7548900A60503 /* MockGPS */,
-				7520F59522C7548900A60503 /* Performance */,
+				6E0ACE5D641C07EE69FE752C /* Pods-UCARRobot_Example.debug.xcconfig */,
+				E8C558826151EE5BE4EBB84B /* Pods-UCARRobot_Example.release.xcconfig */,
+				ECFE3BA27883ED6195CD9BD7 /* Pods-UCARRobot_Tests.debug.xcconfig */,
+				8B78D16AB8AB337BDECC81DF /* Pods-UCARRobot_Tests.release.xcconfig */,
 			);
-			path = DemoVC;
-			sourceTree = "<group>";
-		};
-		7520F56F22C7548900A60503 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				7520F57022C7548900A60503 /* DoraemonDemoUIViewController.m */,
-				7520F57122C7548900A60503 /* DoraemonDemoUIViewController.h */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		7520F57222C7548900A60503 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				7520F57422C7548900A60503 /* DoraemonDemoHomeViewController.h */,
-				7520F57322C7548900A60503 /* DoraemonDemoHomeViewController.m */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		7520F57522C7548900A60503 /* Net */ = {
-			isa = PBXGroup;
-			children = (
-				7520F57622C7548900A60503 /* WebView */,
-				7520F57B22C7548900A60503 /* DoraemonDemoNetViewController.h */,
-				7520F57C22C7548900A60503 /* Image */,
-				7520F58122C7548900A60503 /* DoraemonDemoNetViewController.m */,
-			);
-			path = Net;
-			sourceTree = "<group>";
-		};
-		7520F57622C7548900A60503 /* WebView */ = {
-			isa = PBXGroup;
-			children = (
-				7520F57722C7548900A60503 /* DoraemonWKWebViewViewController.h */,
-				7520F57822C7548900A60503 /* DoraemonUIWebViewViewController.m */,
-				7520F57922C7548900A60503 /* DoraemonUIWebViewViewController.h */,
-				7520F57A22C7548900A60503 /* DoraemonWKWebViewViewController.m */,
-			);
-			path = WebView;
-			sourceTree = "<group>";
-		};
-		7520F57C22C7548900A60503 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				7520F57D22C7548900A60503 /* DoraemonDemoImageViewController.m */,
-				7520F57E22C7548900A60503 /* DoraemonDemoImageShowViewController.m */,
-				7520F57F22C7548900A60503 /* DoraemonDemoImageViewController.h */,
-				7520F58022C7548900A60503 /* DoraemonDemoImageShowViewController.h */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		7520F58222C7548900A60503 /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-				7520F58322C7548900A60503 /* DoraemonDemoLoggerViewController.h */,
-				7520F58422C7548900A60503 /* DoraemonDemoLoggerViewController.m */,
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
-		7520F58522C7548900A60503 /* Crash */ = {
-			isa = PBXGroup;
-			children = (
-				7520F58622C7548900A60503 /* DoraemonDemoCrashViewController.h */,
-				7520F58722C7548900A60503 /* DoraemonDemoCrashMRCView.h */,
-				7520F58822C7548900A60503 /* DoraemonDemoCrashViewController.m */,
-				7520F58922C7548900A60503 /* DoraemonDemoCrashMRCView.m */,
-			);
-			path = Crash;
-			sourceTree = "<group>";
-		};
-		7520F58A22C7548900A60503 /* Sanbox */ = {
-			isa = PBXGroup;
-			children = (
-				7520F58B22C7548900A60503 /* DoraemonDemoSanboxViewController.h */,
-				7520F58C22C7548900A60503 /* DoraemonDemoSanboxViewController.m */,
-			);
-			path = Sanbox;
-			sourceTree = "<group>";
-		};
-		7520F58D22C7548900A60503 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				7520F58E22C7548900A60503 /* DoraemonDemoCommonViewController.h */,
-				7520F58F22C7548900A60503 /* DoraemonDemoCommonViewController.m */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		7520F59022C7548900A60503 /* MockGPS */ = {
-			isa = PBXGroup;
-			children = (
-				7520F59122C7548900A60503 /* DoraemonDemoMockGPSAnnotation.m */,
-				7520F59222C7548900A60503 /* DoraemonDemoMockGPSViewController.h */,
-				7520F59322C7548900A60503 /* DoraemonDemoMockGPSAnnotation.h */,
-				7520F59422C7548900A60503 /* DoraemonDemoMockGPSViewController.m */,
-			);
-			path = MockGPS;
-			sourceTree = "<group>";
-		};
-		7520F59522C7548900A60503 /* Performance */ = {
-			isa = PBXGroup;
-			children = (
-				7520F59622C7548900A60503 /* DoraemonDemoPerformanceViewController.m */,
-				7520F59722C7548900A60503 /* DoraemonDemoPerformanceViewController.h */,
-			);
-			path = Performance;
-			sourceTree = "<group>";
-		};
-		7520F5A722C7549E00A60503 /* Plugin */ = {
-			isa = PBXGroup;
-			children = (
-				7520F5A822C7549E00A60503 /* StartPlugin.m */,
-				7520F5A922C7549E00A60503 /* TestPlugin.m */,
-				7520F5AA22C7549E00A60503 /* StartPlugin.h */,
-				7520F5AB22C7549E00A60503 /* TestPlugin.h */,
-			);
-			path = Plugin;
-			sourceTree = "<group>";
-		};
-		7520F5AC22C7549E00A60503 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				7520F5AD22C7549F00A60503 /* NSObject+Runtime.h */,
-				7520F5AE22C7549F00A60503 /* NSObject+Runtime.m */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		7520F5AF22C7549F00A60503 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				7520F5B022C7549F00A60503 /* huoying.mp4 */,
-				7520F5B122C7549F00A60503 /* Doraemon.xlsx */,
-				7520F5B222C7549F00A60503 /* doraemon.html */,
-				7520F5B322C7549F00A60503 /* Doraemon.docx */,
-				7520F5B422C7549F00A60503 /* Doraemon.pdf */,
-			);
-			path = Resource;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,12 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "UCARRobot_Example" */;
 			buildPhases = (
-				9FBD7DCCB93F6F39C7260328 /* [CP] Check Pods Manifest.lock */,
+				9967E425486C9AF3D0D4C87D /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B3238D7C5B93D7D284207C22 /* [CP] Embed Pods Frameworks */,
-				7520F56322C713B900A60503 /* Embed Frameworks */,
+				2BCBEC4495EFC29183BF8C50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -454,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "UCARRobot_Tests" */;
 			buildPhases = (
+				B4723F592815A1B261E65D49 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -475,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = UCAR;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "364121248@qq.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -485,9 +254,10 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "UCARRobot" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -507,14 +277,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7520F5B822C7549F00A60503 /* huoying.mp4 in Resources */,
-				7520F5BA22C7549F00A60503 /* doraemon.html in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				7520F5BC22C7549F00A60503 /* Doraemon.pdf in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				7520F5BB22C7549F00A60503 /* Doraemon.docx in Resources */,
-				7520F5B922C7549F00A60503 /* Doraemon.xlsx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +295,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9FBD7DCCB93F6F39C7260328 /* [CP] Check Pods Manifest.lock */ = {
+		2BCBEC4495EFC29183BF8C50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UCARRobot/UCARRobot.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UCARRobot.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9967E425486C9AF3D0D4C87D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,7 +335,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B3238D7C5B93D7D284207C22 /* [CP] Embed Pods Frameworks */ = {
+		B4723F592815A1B261E65D49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -559,36 +343,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/BSBacktraceLogger/BSBacktraceLogger.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
-				"${BUILT_PRODUCTS_DIR}/PNChart/PNChart.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/UCARRobot/UCARRobot.framework",
-				"${PODS_ROOT}/../../UCARRobot/Framework/UCARLoadTime.framework",
-				"${BUILT_PRODUCTS_DIR}/UICountingLabel/UICountingLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
-				"${BUILT_PRODUCTS_DIR}/fishhook/fishhook.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSBacktraceLogger.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNChart.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UCARRobot.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UCARLoadTime.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICountingLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fishhook.framework",
+				"$(DERIVED_FILE_DIR)/Pods-UCARRobot_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UCARRobot_Example/Pods-UCARRobot_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -598,27 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7520F59D22C7548900A60503 /* DoraemonDemoImageShowViewController.m in Sources */,
-				7520F59C22C7548900A60503 /* DoraemonDemoImageViewController.m in Sources */,
-				7520F5B722C7549F00A60503 /* NSObject+Runtime.m in Sources */,
-				7520F5A522C7548900A60503 /* DoraemonDemoMockGPSViewController.m in Sources */,
-				7520F59F22C7548900A60503 /* DoraemonDemoLoggerViewController.m in Sources */,
-				7520F5B522C7549F00A60503 /* StartPlugin.m in Sources */,
-				7520F5A422C7548900A60503 /* DoraemonDemoMockGPSAnnotation.m in Sources */,
-				7520F59822C7548900A60503 /* DoraemonDemoUIViewController.m in Sources */,
 				6003F59E195388D20070C39A /* UCARAppDelegate.m in Sources */,
-				7520F5A622C7548900A60503 /* DoraemonDemoPerformanceViewController.m in Sources */,
-				7520F5A322C7548900A60503 /* DoraemonDemoCommonViewController.m in Sources */,
-				7520F5A222C7548900A60503 /* DoraemonDemoSanboxViewController.m in Sources */,
-				7520F59922C7548900A60503 /* DoraemonDemoHomeViewController.m in Sources */,
-				7520F5A022C7548900A60503 /* DoraemonDemoCrashViewController.m in Sources */,
-				7520F59B22C7548900A60503 /* DoraemonWKWebViewViewController.m in Sources */,
-				7520F5B622C7549F00A60503 /* TestPlugin.m in Sources */,
-				7520F59E22C7548900A60503 /* DoraemonDemoNetViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* UCARViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				7520F5A122C7548900A60503 /* DoraemonDemoCrashMRCView.m in Sources */,
-				7520F59A22C7548900A60503 /* DoraemonUIWebViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,32 +424,19 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -729,31 +464,18 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -769,14 +491,12 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC8296336FECA6E71B72AE57 /* Pods-UCARRobot_Example.debug.xcconfig */;
+			baseConfigurationReference = 6E0ACE5D641C07EE69FE752C /* Pods-UCARRobot_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCARRobot/UCARRobot-Prefix.pch";
 				INFOPLIST_FILE = "UCARRobot/UCARRobot-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -787,14 +507,12 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B96BC9BE50C57C4FA9227AA5 /* Pods-UCARRobot_Example.release.xcconfig */;
+			baseConfigurationReference = E8C558826151EE5BE4EBB84B /* Pods-UCARRobot_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCARRobot/UCARRobot-Prefix.pch";
 				INFOPLIST_FILE = "UCARRobot/UCARRobot-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -805,10 +523,11 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFE3BA27883ED6195CD9BD7 /* Pods-UCARRobot_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
@@ -829,10 +548,11 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B78D16AB8AB337BDECC81DF /* Pods-UCARRobot_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);

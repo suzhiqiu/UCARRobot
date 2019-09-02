@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E40E37BD240C94E9D5675F395FFA5917"
+               BlueprintIdentifier = "AAF55DC4E1A79334FED1D6152875C589"
                BuildableName = "UCARRobot.framework"
                BlueprintName = "UCARRobot"
                ReferencedContainer = "container:Pods.xcodeproj">

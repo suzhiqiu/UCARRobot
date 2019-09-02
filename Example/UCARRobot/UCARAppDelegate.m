@@ -2,36 +2,16 @@
 //  UCARAppDelegate.m
 //  UCARRobot
 //
-//  Created by 364121248@qq.com on 06/27/2019.
+//  Created by 364121248@qq.com on 08/29/2019.
 //  Copyright (c) 2019 364121248@qq.com. All rights reserved.
 //
 
 #import "UCARAppDelegate.h"
-#import "DoraemonDemoHomeViewController.h"
-
-#ifdef DEBUG
-#import <UCARRobot.h>
-
-#endif
 
 @implementation UCARAppDelegate
 
-+ (void)load {
-    NSLog(@"sss");
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-#ifdef DEBUG
-    [UCARRobot setUp];
-#endif
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    DoraemonDemoHomeViewController *homeVc = [[DoraemonDemoHomeViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
-    self.window.rootViewController = nav;
-    [self.window makeKeyAndVisible];
-    
     // Override point for customization after application launch.
     return YES;
 }

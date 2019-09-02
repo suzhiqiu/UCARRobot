@@ -1,0 +1,2 @@
+dependencies: \
+  /var/folders/sl/j60rnbg93dn81h10txsljl9c0000gn/T/cocoapods-umj7jkzf/Pods/Target\ Support\ Files/Pods-packager/Pods-packager-dummy.m
