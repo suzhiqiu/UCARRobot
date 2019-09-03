@@ -10,7 +10,11 @@
 @implementation UCARRobot
 
 +(void)say {
-    NSLog(@"say");
+    NSLog(@"say1");
+    NSLog(@"say2");
+    NSLog(@"say3");
+    NSLog(@"say4");
+    NSLog(@"say5");
 }
 
 @end
